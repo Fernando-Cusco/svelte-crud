@@ -2,7 +2,7 @@ on: push
 name: deploy
 jobs:
   deploy:
-    name: deploy to cluster
+    name: build con Docker
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
